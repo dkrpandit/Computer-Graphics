@@ -1,0 +1,15 @@
+------------------------------1. Install and explore the OpenGL -------------------------------------
+
+
+dharmendra@pandit:~$ sudo apt-get update
+
+dharmendra@pandit:~$ sudo apt-get install libglut libglu1-mesa-dev freeeglu3-dev mesa-common-dev
+
+dharmendra@pandit:~$ sudo apt install g++
+
+For Compilation
+
+g++ filename.cpp -lGL -lGLU -lglut
+
+For Execution
+./a.out
