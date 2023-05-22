@@ -9,7 +9,8 @@ dharmendra@pandit:~$ sudo apt install g++
 
 For Compilation
 
-g++ filename.cpp -lGL -lGLU -lglut
+dharmendra@pandit:~$ g++ filename.cpp -lGL -lGLU -lglut
 
 For Execution
-./a.out
+
+dharmendra@pandit:~$ ./a.out
