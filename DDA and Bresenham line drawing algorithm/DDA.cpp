@@ -64,7 +64,7 @@ void dda(int xa, int ya, int xb, int yb, int lineType)
             y = y + yIncrement;
             break;
         case 3: // Dashed Line
-            if (k % 4 != 0)
+            if (k % 8 != 0)
             {
                 glVertex2d(Round(x), Round(y));
             }
@@ -73,9 +73,12 @@ void dda(int xa, int ya, int xb, int yb, int lineType)
             break;
         case 4: // Solid Line
             glPointSize(3.0);
+            glBegin(GL_POINTS);
             x = x + xIncrement;
             y = y + yIncrement;
             glVertex2d(Round(x), Round(y));
+            glEnd();
+            glFlush();
             break;
         }
     }
@@ -130,6 +133,10 @@ int main(int argc, char **argv)
 
     return 0;
 }
+
+//dharmendra@pandit:~$ g++ test.cpp -lGL -lGLU -lglut
+//dharmendra@pandit:~$ ./a.out
+
 
 //dharmendra@pandit:~$ g++ test.cpp -lGL -lGLU -lglut
 //dharmendra@pandit:~$ ./a.out
