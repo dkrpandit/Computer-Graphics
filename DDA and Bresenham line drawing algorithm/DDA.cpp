@@ -1,11 +1,10 @@
 /*
-2. Implement DDA and line drawing algorithm to draw: 
-i) Simple Line 
+1. Implement DDA line drawing algorithm to draw: 
+i) Simple Line
 ii) Dotted Line
-iii) Dashed Line
-iv) Solid line 
-using mouse interface Divide the screen in four quadrants with
-center as (0, 0). The line should work for all the slopes positive as well as negative.
+iii) Dashed Line 
+iv) Solid line 
+using mouse interface. Divide the screen in four quadrants with center as (0, 0). The line should work for all the slopes positive as well as negative.
 */
 #include <iostream>
 #include <GL/glut.h>
