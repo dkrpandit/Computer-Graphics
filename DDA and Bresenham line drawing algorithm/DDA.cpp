@@ -136,7 +136,3 @@ int main(int argc, char **argv)
 
 //dharmendra@pandit:~$ g++ test.cpp -lGL -lGLU -lglut
 //dharmendra@pandit:~$ ./a.out
-
-
-//dharmendra@pandit:~$ g++ test.cpp -lGL -lGLU -lglut
-//dharmendra@pandit:~$ ./a.out
